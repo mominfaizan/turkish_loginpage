@@ -1,0 +1,89 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body{
+
+        background-image: linear-gradient(to right, rgb(106, 6, 236), rgb(220, 0, 240));
+    }
+    .box h2{
+        color: #e74c3c;
+        background-color: #222;
+     font-size: 28px;
+        margin-left: 100px;
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+    .box{
+        margin-left: 500px;
+        margin-top: 150px;
+        height: 450px;
+        width: 400px;
+        border-style:solid;
+        border: 2px solid #e74c3c;
+        border-width: 3px;
+        background-color: #222;
+        position: relative;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+
+    }
+    .box:hover {
+        transform: scale(1.02);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+    }
+    .box .inputtext{
+        background-color: #222;
+
+        margin-left: 52px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .box label{
+        background-color: #222;
+
+        color: blue;
+        font-size: 24px;
+        text-transform: capitalize;
+    }
+    .box #submitbutton{
+        position: absolute;
+        margin-left: 70px;
+        margin-top: 20px;
+        height: 35px;
+        width: 155px;
+        font-size: 20px;
+        background-color: #e74c3c;
+    color: white;
+    }
+    #submitbutton:hover {
+        background-color: #c0392b;
+    }
+    
+    .box #name{
+        margin-left: 52px;
+        margin-top: 5px;
+        margin-bottom: 5px;  
+    }
+    .box #password{
+        margin-left: 52px;
+        margin-top: 5px;
+        margin-bottom: 5px;  
+    }
+    .inputtext {
+        display: block;
+        color: #ecf0f1;
+        font-size: 18px;
+        margin: 15px 0;
+        text-transform: capitalize;
+    }
+    .redpro {
+        width: 60%;
+        padding: 12px;
+        border: 1px solid #bdc3c7;
+        border-radius: 5px;
+        background-color: #333;
+        color: #ecf0f1;
+        transition: border-color 0.3s ease-in-out;
+    }
+    
